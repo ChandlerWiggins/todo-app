@@ -41,6 +41,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
         ]}>
         {title}
       </Text>
+      <Text className="text-xl p-4">Hello</Text>
       <Text
         style={[
           styles.sectionDescription,
