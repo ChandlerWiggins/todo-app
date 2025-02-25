@@ -41,7 +41,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
         ]}>
         {title}
       </Text>
-      <Text className="text-xl p-4">Hello</Text>
+      <Text style={styles.helloText}>Hello</Text>
       <Text
         style={[
           styles.sectionDescription,
@@ -126,6 +126,10 @@ const styles = StyleSheet.create({
   },
   highlight: {
     fontWeight: '700',
+  },
+  helloText: {
+    fontSize: 20,
+    padding: 16,
   },
 });
 
